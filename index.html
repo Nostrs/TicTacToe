@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tic Tac Toe</title>
+        <script src="Script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+       
+    </head>
+    <body>
+
+        <header class="titoli">
+            <p id="titolo">
+                Tic Tac Toe
+            </p>
+            <p id="sottotitolo">
+                (Con l'algoritmo Minimax)
+            </p>
+        </header>
+        
+        <!--Griglia Tictactoe-->
+        <div class="areaGioco" id="areaGioco">
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+            <div class="quadrante" data-quadrante></div>
+        </div>
+        <div class="Pulsantiscelta" id="PulsantiScelta">
+            <button id="iniziaO">Inzia Ai</button>
+            <div class="dropup">
+            <button class="droppuls">Difficoltà</button>
+            <div class="dropup-contenuto">
+              <button class="facile" id="facile">Possibile</a>
+              <button class="difficile" id="difficile">Impossibile</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="messaggioVittoria" id="messaggioVittoria">
+            <div data-messagioVittoriaTesto ></div>
+            <button id="pulsanteRestart"> Restart </button>
+        </div>
+        
+    </body>
+</html>
